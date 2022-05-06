@@ -85,7 +85,7 @@ function getDetails(name, age) {
   return [`Your name is ${name}`, `You are ${age} years old`];
 }
 
-let one, two;
-[one, two] = getDetails("joep", 19);
-console.log(one);
-console.log(two)
+const naam = getDetails("Arjen", 35)[0];
+const age = getDetails("Arjen", 35)[1];
+console.log(naam);
+console.log(age);
